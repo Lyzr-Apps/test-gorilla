@@ -1,11 +1,7 @@
-// Create a red circle in the center
+// Create a rotating red square in the center
 const app = document.getElementById('app')!;
 
-const circle = document.createElement('div');
-circle.style.width = '200px';
-circle.style.height = '200px';
-circle.style.backgroundColor = 'red';
-circle.style.borderRadius = '50%';
-circle.style.margin = '0 auto';
+const square = document.createElement('div');
+square.className = 'rotating-square';
 
-app.appendChild(circle);
+app.appendChild(square);
